@@ -1,0 +1,13 @@
+name: Hello World
+author: Santhosh
+description: Some description
+inputs:
+  who-to-greet:
+    description: true
+    default: San
+outputs:
+  time:
+    description: 'The greeting time'
+runs:
+  using: "node12"
+  main: "dist/index.js"
